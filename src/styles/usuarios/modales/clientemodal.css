@@ -1,0 +1,65 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%; /* Cambiar a 90% para pantallas más pequeñas */
+  max-width: 500px; /* Un ancho máximo para pantallas grandes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.modal-form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Cambiar a 'stretch' para que ocupe todo el ancho */
+}
+
+.modal-form div {
+  margin-bottom: 20px; /* Reducir margen para dispositivos móviles */
+}
+
+.modal-input input {
+  border-style: none;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 10px; /* Aumentar el padding */
+  width: 100%; /* Asegurar que el input ocupe todo el ancho */
+  box-sizing: border-box; /* Asegurarse de que el padding no afecte el tamaño total */
+}
+
+.modal-input input:first-child {
+  margin-right: 0; /* Quitar margen derecho */
+}
+
+.create-button {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Botón ocupa todo el ancho */
+}
+
+.create-button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}

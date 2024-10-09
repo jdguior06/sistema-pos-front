@@ -1,0 +1,59 @@
+.personal-page {
+  width: 85vw;
+  margin: 40px auto;
+}
+
+.personal-page-h2 {
+  text-align: center;
+}
+
+.personal-page-control-buttons {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  margin-right: 35px;
+}
+
+.personal-page-control-buttons input {
+  margin-right: 30px;
+  border-style: none;
+  border-radius: 20px;
+  padding-left: 15px;
+  width: 270px;
+}
+
+.personal-page-control-buttons button {
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 17px;
+  cursor: pointer;
+  background-color: rgb(0, 166, 0);
+  color: white;
+}
+
+.personal-list {
+  width: 100%;
+}
+
+.personal-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 2fr 2fr 2fr;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.personal-header {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.personal-page-control-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.personal-page-h2 {
+  margin-bottom: 20px;
+}

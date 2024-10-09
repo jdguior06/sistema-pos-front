@@ -1,0 +1,26 @@
+.proveedores-item-column-division {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0px auto;
+    padding: 8px 50px;
+    text-align: center;
+  }
+  
+  .proveedor-item {
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .proveedor-item:last-child {
+    border-bottom: none;
+  }
+  
+  .proveedor-item button {
+    margin-right: 5px;
+  }
+  
+  .proveedor-inactivo {
+    background-color: #f8d7da; /* Fondo rojo claro para proveedors desactivados */
+    color: #721c24; /* Texto en rojo oscuro */
+  }

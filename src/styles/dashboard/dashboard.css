@@ -1,0 +1,32 @@
+.dashboard-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(39, 39, 39);
+  align-items: center;
+  width: 150px;
+  height: 100vh;
+}
+
+.dashboard-li-component {
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s ease;
+}
+
+.dashboard-li-component span {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.dashboard-li-component svg {
+  font-size: 25px;
+}
+
+.dashboard-li-component:hover {
+  color: #fc9905;
+  cursor: pointer;
+}

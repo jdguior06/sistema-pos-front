@@ -1,0 +1,102 @@
+.logoLogin {
+  width: 100px;
+  margin: 20px;
+}
+
+.login {
+  display: flex;
+  height: 100vh;
+}
+
+.heroLoginContainer {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.heroLogin {
+  width: 96%;
+  height: 96%;
+  border-radius: 20px;
+}
+
+.loginFormular {
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+}
+
+.loginFormularInputs {
+  width: 70%;
+  margin: auto auto;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.loginFormularInputs h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.loginFormularInputs p {
+  margin-bottom: 30px;
+}
+
+.formularInput {
+  width: 100%;
+}
+
+.formularInput p {
+  color: #999999;
+  margin-bottom: 0px;
+}
+
+.inputIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.inputIcon input {
+  width: 100%;
+  border: 0;
+  height: 30px;
+  background-color: #f8f9fa;
+  margin-left: 10px;
+  border-bottom: 1px solid #000842;
+  color: #000842;
+}
+
+.inputIcon input:focus {
+  opacity: 1;
+  outline: none;
+  color: #000842;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #000842;
+}
+
+.inputIcon svg {
+  color: #000842;
+}
+
+.buttonLogin {
+  width: 150px;
+  max-width: 150px;
+  height: 45px;
+  max-height: 45px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 18px 0px;
+  border: none;
+  background-color: #343a40;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+}

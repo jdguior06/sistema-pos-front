@@ -1,0 +1,26 @@
+.clientes-item-column-division {
+  display: flex;
+  background-color: orange;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0px auto;
+  padding: 8px 50px;
+  text-align: center;
+}
+
+.cliente-item {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cliente-item:last-child {
+  border-bottom: none;
+}
+
+.cliente-item button {
+  margin-right: 5px;
+}
+
+.cliente-inactivo {
+  background-color: #f8d7da; /* Fondo rojo claro para clientes desactivados */
+  color: #721c24; /* Texto en rojo oscuro */
+}

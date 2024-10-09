@@ -1,0 +1,83 @@
+.clientes-page {
+  width: 85vw;
+  margin: 40px auto;
+}
+
+.clientes-page-h2 {
+  text-align: center;
+}
+
+.clientes-page-control-buttons {
+  display: flex;
+  justify-content: space-between; /* Espaciado entre elementos */
+  align-items: center; /* Centrar verticalmente */
+  margin: 30px 35px 20px; /* Margen superior e inferior */
+}
+
+.clientes-page-control-buttons input {
+  margin-right: 15px; /* Espacio a la derecha */
+  border: none; /* Sin borde */
+  border-radius: 20px; /* Bordes redondeados */
+  padding: 10px 15px; /* Espaciado interno */
+  width: 270px; /* Ancho del input */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el input */
+}
+
+.show-inactive-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Espacio entre el checkbox y la etiqueta */
+  font-size: 14px; /* Ajustar el tamaño de la fuente */
+}
+
+.show-inactive-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #007BFF; /* Cambiar el color del checkbox */
+}
+
+.show-inactive-checkbox label {
+  cursor: pointer;
+  color: #333; /* Color del texto */
+  font-weight: 500; /* Peso del texto */
+  font-size: 14px; /* Tamaño del texto */
+  transition: color 0.3s; /* Transición para efecto al pasar el ratón */
+}
+
+.show-inactive-checkbox label:hover {
+  color: #007BFF; /* Color del texto al pasar el ratón */
+}
+
+.create-button {
+  background-color: #007BFF; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s; /* Transición de color al pasar el ratón */
+  max-width: 120px; /* Ancho máximo del botón */
+  flex-shrink: 0; /* Evita que el botón se encoja */
+}
+
+.create-button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+.clientes-list {
+  width: 100%;
+}
+
+.clientes-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 2fr 2fr;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.clientes-header {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
