@@ -1,0 +1,81 @@
+.productos-page {
+  width: 100%; /* Usar todo el ancho disponible */
+  padding: 20px;
+  background-color: #f8f9fa; /* Color de fondo suave */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.productos-page-h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #343a40; /* Color de texto oscuro */
+}
+
+.productos-page-control-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productos-page-control-buttons input {
+  padding: 10px;
+  border: 1px solid #ced4da; /* Borde suave */
+  border-radius: 5px;
+  width: 70%; /* Ancho del campo de búsqueda */
+}
+
+.create-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Color primario */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+.productos-list {
+  width: 100%; /* Asegurarse de que ocupe todo el ancho */
+  background-color: white; /* Fondo blanco para la lista */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden; /* Para evitar desbordamiento */
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+  background-color: #e9ecef; /* Color de fondo de encabezado */
+  padding: 10px;
+  font-weight: bold;
+}
+
+.productos-header span {
+  padding: 10px;
+  text-align: center; /* Alinear el texto al centro */
+}
+
+.productos-items {
+  max-height: 400px; /* Altura máxima para la lista */
+  overflow-y: auto; /* Scroll vertical si es necesario */
+}
+
+.productos-items > div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  border-bottom: 1px solid #ced4da; /* Línea divisoria entre productos */
+}
+
+.productos-items > div:last-child {
+  border-bottom: none; /* Eliminar borde en el último elemento */
+}
+
+.productos-items > div:hover {
+  background-color: #f1f1f1; /* Color de fondo al pasar el mouse */
+}

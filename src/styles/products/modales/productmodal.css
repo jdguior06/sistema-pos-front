@@ -1,0 +1,139 @@
+/* Estilos para el modal */
+.overlay {
+  position: fixed; /* Asegura que cubra todo el viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:99999; /* Valor por encima del z-index de Material UI */
+}
+
+.modalContainer {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index:99999; /* Asegura que el contenedor del modal esté encima */
+}
+
+/* Tabla */
+.productos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.productos-table th, .productos-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.productos-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.productos-table img {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.edit-button, .delete-button {
+  margin: 5px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #ffc400;
+  color: white;
+}
+
+.delete-button {
+  background-color: #d00;
+  color: white;
+}
+
+
+  @keyframes slide-down {
+    from {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Estilos para el botón de cerrar */
+  .modalClose {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el contenido del modal */
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .modal-form {
+    width: 100%;
+  }
+  
+  .modal-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-input input,
+  .modal-input textarea,
+  .modal-input select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .modal-input textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  /* Estilos para el botón de crear */
+  .create-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-button:hover {
+    background-color: #218838;
+  }
+  
+  .create-button:active {
+    background-color: #1e7e34;
+  }
+  
