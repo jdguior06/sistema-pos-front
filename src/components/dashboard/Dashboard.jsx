@@ -34,9 +34,9 @@ const Dashboard = ({ logout }) => {
           </Link>
         </li>
         <li>
-          <Link to="/inventario" className="dashboard-li-component">
+          <Link to="/producto" className="dashboard-li-component">
             <MdOutlineInventory />
-            <span>Inventario</span>
+            <span>Producto</span>
           </Link>
         </li>
         <li>

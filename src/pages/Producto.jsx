@@ -1,13 +1,14 @@
 import React from "react";
 import Dashboard from "../components/dashboard/Dashboard";
+import ProductsPage from "../components/products/ProductsPage";
 
-const Inventario = () => {
+const Producto = () => {
   return (
     <div className="sections-wrapper">
       <Dashboard />
-      Inventario
-    </div>
+      <ProductsPage />
+       </div>
   );
 };
 
-export default Inventario;
+export default Producto;
